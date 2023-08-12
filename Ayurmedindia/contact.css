@@ -1,0 +1,83 @@
+h6{
+    font-size: 12 px;
+    font-weight: 700;
+}
+ *{
+    box-sizing: border- box;
+    margin: 0;
+    padding: 0;
+  
+    
+ }
+ button.normal{
+   font-size: 14px;
+   font-weight: 600;
+   padding: 15px 30px;
+   color: black;
+   background-color: white;
+   border-radius: 4px;
+   cursor: pointer;
+   outline: none;
+   transition: 0.2s;
+
+ }
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    height: 65px;
+    padding-left:55px;
+    padding-right: 55px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 5px 15px rgba(0, rgb(0, 0, 0), rgb(0, 0, 0), 0.06);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px ;
+    position: relative;
+}
+#navbar li a{
+    text-decoration:none;
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active
+{
+    color: rgb(118, 118, 118);
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+#mobile{
+  display: none;
+  align-items: center;
+
+}

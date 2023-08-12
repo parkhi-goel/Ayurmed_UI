@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="logo">
+            <a href="#"><img src="\nweb\ologo.jpeg" style="height: 55px; width: 185px;" alt="Ayurmed logo"></a>
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a class="active" href="cart.html"> Bag </a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+   
+    <main>
+        <section class="cart">
+            <h2>Cart Items</h2>
+            <ul class="items-list">
+                <li>
+                    <img src="item1.jpg" alt="Item 1">
+                    <h3>Item 1</h3>
+                    <p>Price: $10</p>
+                    <button class="remove-item">Remove</button>
+                </li>
+                <li>
+                    <img src="item2.jpg" alt="Item 2">
+                    <h3>Item 2</h3>
+                    <p>Price: $20</p>
+                    <button class="remove-item">Remove</button>
+                </li>
+                <li>
+                    <img src="item3.jpg" alt="Item 3">
+                    <h3>Item 3</h3>
+                    <p>Price: $30</p>
+                    <button class="remove-item">Remove</button>
+                </li>
+            </ul>
+            <div class="cart-total">
+                <h3>Total: $60</h3>
+                <button class="checkout">Checkout</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
